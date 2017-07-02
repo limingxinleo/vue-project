@@ -1,8 +1,10 @@
 /**
  * Created by limx on 17-7-2.
  */
-import VueRouter from 'vue-router'
-import Vue from 'vue'
+import VueRouter from 'vue-router';
+import Vue from 'vue';
+import Index from './components/Index.vue';
+
 Vue.use(VueRouter);
 
 // 1. 定义（路由）组件。
@@ -16,7 +18,7 @@ const Bar = {template: '<div>bar</div>'}
 // 或者，只是一个组件配置对象。
 // 我们晚点再讨论嵌套路由。
 const routes = [
-    {path: '/foo', component: Foo},
+    {path: '/', component: Index},
     {path: '/bar', component: Bar}
 ];
 

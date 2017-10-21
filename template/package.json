@@ -1,6 +1,6 @@
 {
     "name": "{{ name }}",
-    "description": "{{ description }}",
+    "description": "A Simple Vue Project",
     "version": "1.0.0",
     "author": "{{ author }}",
     "private": true,

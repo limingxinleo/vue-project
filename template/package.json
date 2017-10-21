@@ -1,8 +1,8 @@
 {
-    "name": "vue-project",
-    "description": "A Vue.js project",
+    "name": "{{ name }}",
+    "description": "{{ description }}",
     "version": "1.0.0",
-    "author": "limingxinleo <715557344@qq.com>",
+    "author": "{{ author }}",
     "private": true,
     "scripts": {
         "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",

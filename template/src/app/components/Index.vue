@@ -26,12 +26,19 @@
 
 <script>
     import Vue from 'vue'
+    import Vuex from 'vuex'
     export default {
         name: 'index',
         data () {
             return {
                 msg: 'Welcome to Your Vue.js App'
             }
+        },
+        mounted(){
+            let that = this;
+            console.log(this.$store.getters.version);
+            this.$store.dispatch('setVersion', "v1.0.2");
+            console.log(this.$store.getters.version);
         },
     }
 </script>

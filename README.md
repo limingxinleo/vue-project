@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+# install vue project
+vue init limingxinleo/vue-project project-name
+
 # install dependencies
 npm install
 
